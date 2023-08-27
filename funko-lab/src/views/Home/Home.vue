@@ -24,7 +24,7 @@
       </v-card-subtitle>
 
       <v-card-actions>
-        <v-btn color="orange" @click="() => this.$store.dispatch('adicionarProduto', { product })">
+        <v-btn variant="tonal" color="orange" @click="() => this.$store.dispatch('adicionarProduto', { product })">
           Comprar
         </v-btn>
       </v-card-actions>
