@@ -1,10 +1,10 @@
 <template>
-  SOu a Cart
+  Meu Carrinho
 
   <v-table>
     <thead>
       <tr>
-        <th class="text-left">Imagem</th>
+        <th class="text-left">Produto</th>
         <th class="text-left">Nome</th>
         <th class="text-left">Quantidade</th>
         <th class="text-left">Preço</th>

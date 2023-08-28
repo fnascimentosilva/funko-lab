@@ -1,7 +1,7 @@
 <template>
   <h1>Produtos {{ this.$store.state.produtosCarrinho.length }}</h1>
 
-  <button @click="this.$store.dispatch('alterarNome', { nome: 'Fabricio' })">Cliquei</button>
+  <button @click="this.$store.dispatch('alterarNome', { nome: 'douglas' })">Cliquei</button>
   <div class="list-products">
     <v-card width="300px" class="pa-2 mb-2" v-for="product in produtosRestantes" :key="product.id">
       <v-img
